@@ -7,7 +7,7 @@ package actividad_02_ud4_ed;
 
 /**Clase que representa a una cuenta bancaria
  * 
- * @author Diego
+ * @author Diego Jesús Sánchez Del Corral
  */
 public class CCuenta {
 
@@ -39,9 +39,9 @@ public class CCuenta {
         saldo=sal;
         tipoInterés=tipo;
     }
-  /**Método para asignar el nombre a la variable nombre
+  /**Método para asignar el titular de la cuenta
    * 
-   * @param nom 
+   * @param nom Se le define el Nombre al titular
    */
     public void asignarNombre(String nom)
     {
@@ -49,7 +49,7 @@ public class CCuenta {
     }
    /**Método para retornar el nombre de la variable nombre
     * 
-    * @return 
+    * @return <code>Nombre</code> Nos devuelve el valor definido como nombre
     */
     public String obtenerNombre()
     {
@@ -58,7 +58,7 @@ public class CCuenta {
 
     /**Método para retornar el saldo de la variable saldo
      * 
-     * @return 
+     * @return <code>Saldo</code> Nos devuelve el valor definido como estado
      */
      public double estado ()
     {
@@ -67,8 +67,8 @@ public class CCuenta {
 
     /**Método para comprobar que la cantidad a ingresar sea superio a 0
      * 
-     * @param cantidad
-     * @throws Exception 
+     * @param cantidad Se designa la cantidad a ingresar
+     * @throws Exception Se revisa que no se ingrese una cantidad negativa
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -79,8 +79,8 @@ public class CCuenta {
 
    /**Método para comprobar que la cantidad a entregar sea superir a 0 y que haya cantidad suficiente
     * 
-    * @param cantidad
-    * @throws Exception 
+    * @param cantidad Se define la cantidad a retirar
+    * @throws Exception Se revisa que no se retire una cantidad negativa y que haya suficiente saldo
     */
     public void retirar (double cantidad) throws Exception
     {
@@ -92,7 +92,7 @@ public class CCuenta {
     }
     /**Método para retornar el número de cuenta de la variable cuenta
      * 
-     * @return 
+     * @return <code>Cuenta</code> Nos devuelve el valor definido como cuenta
      */
     public String obtenerCuenta ()
     {
@@ -101,7 +101,7 @@ public class CCuenta {
 
   /**Método para asignar el número de cuenta a la variable cuenta
    * 
-   * @param cuenta 
+   * @param cuenta Se define el número de cuenta 
    */
   public void setCuenta(String cuenta) {
     this.cuenta = cuenta;
@@ -109,7 +109,7 @@ public class CCuenta {
 
   /**Método para asignar el saldo a la variable saldo
    * 
-   * @param saldo 
+   * @param saldo Se def1ne el saldo
    */
   public void setSaldo(double saldo) {
     this.saldo = saldo;
@@ -117,7 +117,7 @@ public class CCuenta {
 
  /**Método para retornar el tipo de interes a la variable tipoInteres
   * 
-  * @return 
+  * @return  <code>tipoInterés</code>Nos devuelve el valor definido como tipo de interés
   */
   public double getTipoInterés() {
     return tipoInterés;
@@ -125,7 +125,7 @@ public class CCuenta {
 
   /**Método para asignar el tipo de interes a la variable tipoInteres
    * 
-   * @param tipoInterés 
+   * @param tipoInterés Se le asigna el tipo de interés
    */
   public void setTipoInterés(double tipoInterés) {
     this.tipoInterés = tipoInterés;
