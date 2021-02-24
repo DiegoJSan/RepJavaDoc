@@ -5,9 +5,9 @@
  */
 package actividad_02_ud4_ed;
 
-/**Clase que representa a una cuenta bancaria
+/**Clase que representa a una cuenta bancaria 
  * 
- * @author Diego Jesús Sánchez Del Corral
+ * @author Diego Jesús Sánchez Del Corral - 1 DAW
  */
 public class CCuenta {
 
